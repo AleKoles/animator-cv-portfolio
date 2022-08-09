@@ -4,7 +4,6 @@
 
 @layer base {
   li {
-    @apply px-2;
-    @apply uppercase;
+    @apply px-2 uppercase font-extralight;
   }
 }
