@@ -5,12 +5,12 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => setNav(!nav);
   return (
-    <div className="w-screen h-[80px]  z-10 bg-white fixed">
+    <div className="w-screen h-[100px]  z-10 bg-white fixed">
       <div className="flex justify-between px-6 items-center w-full h-full">
         <div className="flex items-center text-xl font-bold mr-4 sm:text-2xl tracking-wide">
           <h1 className="">
             <strong>Dmitri Petrov</strong>
-            <span className="uppercase font-normal"> / 3D Animator</span>
+            <span className="uppercase font-normal"> / CG Animator</span>
           </h1>
         </div>
         <ul className="hidden md:flex ">
