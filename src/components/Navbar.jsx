@@ -23,7 +23,11 @@ const Navbar = () => {
           {!nav ? <MenuIcon className="w-6" /> : <XIcon className="w-6" />}
         </div>
       </div>
-      <ul className={!nav ? "hidden" : "absolute w-full px-8"}>
+      <ul
+        className={
+          !nav ? "hidden" : "absolute w-full px-8 bg-white bg-opacity-90"
+        }
+      >
         <li>About me</li>
         <li>Resume</li>
         <li>Projects</li>
