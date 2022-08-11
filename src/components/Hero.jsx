@@ -21,7 +21,7 @@ const Hero = () => {
               </h1>
               <hr className="mt-4 mx-auto bg-white h-[2px] w-[80px]" />
               <h2 className="mt-4 text-2xl uppercase">
-                3D animator / 3D Modeler
+                3D animator / 3D Modeller
               </h2>
               <div className="block md:hidden">
                 <div className="my-5 flex justify-center">
@@ -37,7 +37,7 @@ const Hero = () => {
                   I am an experienced <strong>CG animator</strong> particularly
                   interested in <strong>3D animation</strong>,{" "}
                   <strong>rigging</strong>, <strong>skinning</strong>, and{" "}
-                  <strong>modeling</strong>. With over 3 years' experience of
+                  <strong>modelling</strong>. With over 3 years' experience of
                   managing art teams, I can build animation pipeline from
                   scratch and define the most efficient workflow for any
                   project.
@@ -116,9 +116,9 @@ const Hero = () => {
           <p className="lg:leading-8 lg:text-xl text-lg leading-7">
             I am particularly interested in <strong>3D animation</strong>,{" "}
             <strong>rigging</strong>, <strong>skinning</strong>, and{" "}
-            <strong>modeling</strong>. With over 3 years' experience of managing
-            art teams, I can build animation pipeline from scratch and define
-            the most efficient workflow for any project.
+            <strong>modelling</strong>. With over 3 years' experience of
+            managing art teams, I can build animation pipeline from scratch and
+            define the most efficient workflow for any project.
           </p>
         </div>
       </div>

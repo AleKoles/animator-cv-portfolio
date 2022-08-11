@@ -8,7 +8,7 @@ const Navbar = () => {
     <div className="w-screen h-[100px]  z-10 bg-white fixed">
       <div className="flex justify-between px-6 items-center w-full h-full">
         <div className="flex items-center text-xl font-bold mr-4 sm:text-2xl tracking-wide">
-          <h1 className="">
+          <h1>
             <strong>Dmitri Petrov</strong>
             <span className="uppercase font-normal"> / CG Animator</span>
           </h1>
