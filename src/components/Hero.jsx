@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="grid grid-cols-8">
         <div className="col-span-3 bg-dark-blue md:h-screen h-[1020px]">
           <div className="absolute top-[160px] left-[15px] xl:left-[280px] lg:left-[160px] w-11/12 md:w-[360px] h-[800px]  md:h-[500px] flex flex-col shadow-lg">
-            <div className="md:h-[450px] h-[750px] bg-light-blue text-white text-center">
+            <div className="md:h-[450px] h-[750px] rounded bg-light-blue text-white text-center">
               <div className="border-4 border-white rounded-full overflow-hidden w-[235px] h-[235px] mt-10 mx-auto">
                 <img src={Photo} alt="portrait" />
               </div>

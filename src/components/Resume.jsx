@@ -1,8 +1,15 @@
 import React from "react";
+import Blender from "../images/icon_blender.png";
+import Maya from "../images/icon_maya.png";
+import AE from "../images/icon_ae.png";
+import PS from "../images/icon_ps.png";
+import Marmoset from "../images/icon_marmoset.png";
+import Substance from "../images/icon_substance.png";
+import ZBrush from "../images/icon_zbrush.png";
 
 const Resume = () => {
   return (
-    <div className="w-full h-[2000px] bg-dark-blue absolute top-[100px]">
+    <div className="w-full h-[2600px] sm:h-[3000px] md:h-[1800px]  bg-dark-blue absolute top-[100px]">
       <h1 className="my-10 py-10 text-white text-5xl font-bold text-center">
         Resume
       </h1>
@@ -161,13 +168,70 @@ const Resume = () => {
           </div>
           <div>
             <h3 className="text-lg md:text-xl font-bold mb-5">Software</h3>
-            <div className="flex justify-around items-center flex-wrap"></div>
+            <div className="flex justify-around items-center flex-wrap">
+              <div className="px-2 py-2">
+                <img src={Blender} alt="Blender" className="w-[60px]" />
+                <p className="text-center text-dark-blue font-bold tracking-wide text-xs">
+                  Blender
+                </p>
+              </div>
+              <div className="px-2 py-2">
+                <img src={Maya} alt="Maya" className="w-[60px]" />
+                <p className="text-center text-dark-blue font-bold tracking-wide text-xs">
+                  Maya
+                </p>
+              </div>
+              <div className="px-2 py-2">
+                <img src={Marmoset} alt="Marmoset" className="w-[60px]" />
+                <p className="text-center text-dark-blue font-bold tracking-wide text-xs">
+                  Marmoset
+                </p>
+              </div>
+              <div className="px-2 py-2">
+                <img src={ZBrush} alt="ZBrush" className="w-[60px]" />
+                <p className="text-center text-dark-blue font-bold tracking-wide text-xs">
+                  ZBrush
+                </p>
+              </div>
+              <div className="px-2 py-2">
+                <img src={PS} alt="Photoshop" className="w-[60px]" />
+                <p className="text-center text-dark-blue font-bold tracking-wide text-xs">
+                  Photoshop
+                </p>
+              </div>
+              <div className="px-2 py-2">
+                <img src={AE} alt="AfterEffects" className="w-[60px]" />
+                <p className="text-center text-dark-blue font-bold tracking-wide text-xs">
+                  AfterEffects
+                </p>
+              </div>
+              <div className="px-2 py-2">
+                <img src={Substance} alt="Substance" className="w-[60px]" />
+                <p className="text-center text-dark-blue font-bold tracking-wide text-xs ">
+                  Substance
+                </p>
+              </div>
+            </div>
           </div>
           <div>
-            <h3 className="text-lg md:text-xl font-bold mb-5">Languages</h3>
+            <h3 className="text-lg md:text-xl font-bold my-5">Languages</h3>
+            <div className="flex justify-around flex-wrap">
+              <div className="px-2 py-1 border-2 rounded-lg my-2 mx-2">
+                <h5 className="font-semibold">Ukrainian - Native</h5>
+              </div>
+              <div className="px-2 py-1 border-2 rounded-lg  my-2 mx-2">
+                <h5 className="font-semibold">Russian - Native</h5>
+              </div>
+              <div className="px-2 py-1 border-2 rounded-lg  my-2 mx-2">
+                <h5 className="font-semibold">English - Advanced</h5>
+              </div>
+              <div className="px-2 py-1 border-2 rounded-lg  my-2 mx-2">
+                <h5 className="font-semibold">Italian - Elementary</h5>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="mt-10 py-2 px-4 bg-white rounded shadow-lg">
+        <div className="my-10 py-2 px-4 bg-white rounded shadow-lg">
           <div className="grid grid-rows-4">
             <div className="row">
               <div className="col-span-8  mb-5">
