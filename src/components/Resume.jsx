@@ -169,43 +169,43 @@ const Resume = () => {
           <div>
             <h3 className="text-lg md:text-xl font-bold mb-5">Software</h3>
             <div className="flex justify-around items-center flex-wrap">
-              <div className="px-2 py-2 flex items-center px-2 py-1 border-1 bg-light-blue drop-shadow rounded-lg  my-2 mx-1">
+              <div className="px-2 py-2 flex items-center border-1 bg-light-blue drop-shadow rounded-lg  my-2 mx-1">
                 <img src={Blender} alt="Blender" className="w-[20px] mr-2" />
                 <p className="text-center font-semibold tracking-wide text-md">
                   Blender
                 </p>
               </div>
-              <div className="px-2 py-2 flex items-center px-2 py-1 border-1 bg-light-blue drop-shadow rounded-lg  my-2 mx-1">
+              <div className="px-2 py-2 flex items-center border-1 bg-light-blue drop-shadow rounded-lg  my-2 mx-1">
                 <img src={Maya} alt="Maya" className="w-[20px] mr-2" />
                 <p className="text-center font-semibold tracking-wide text-md">
                   Maya
                 </p>
               </div>
-              <div className="px-2 py-2 flex items-center px-2 py-1 bg-light-blue drop-shadow rounded-lg  my-2 mx-1">
+              <div className="px-2 py-2 flex items-center  bg-light-blue drop-shadow rounded-lg  my-2 mx-1">
                 <img src={Marmoset} alt="Marmoset" className="w-[20px] mr-2" />
                 <p className="text-center font-semibold tracking-wide text-md">
                   Marmoset
                 </p>
               </div>
-              <div className="px-2 py-2 flex items-center px-2 py-1 bg-light-blue drop-shadow rounded-lg  my-2 mx-1">
+              <div className="px-2 py-2 flex items-center bg-light-blue drop-shadow rounded-lg  my-2 mx-1">
                 <img src={ZBrush} alt="ZBrush" className="w-[20px] mr-2" />
                 <p className="text-center font-semibold tracking-wide text-md">
                   ZBrush
                 </p>
               </div>
-              <div className="px-2 py-2 flex items-center px-2 py-1 bg-light-blue drop-shadow rounded-lg  my-2 mx-1">
+              <div className="px-2 py-2 flex items-center  bg-light-blue drop-shadow rounded-lg  my-2 mx-1">
                 <img src={PS} alt="Photoshop" className="w-[20px] mr-2" />
                 <p className="text-center font-semibold tracking-wide text-md">
                   Photoshop
                 </p>
               </div>
-              <div className="px-2 py-2 flex items-center px-2 py-1 bg-light-blue drop-shadow rounded-lg  my-2 mx-1">
+              <div className="px-2 py-2 flex items-center  bg-light-blue drop-shadow rounded-lg  my-2 mx-1">
                 <img src={AE} alt="AfterEffects" className="w-[20px] mr-2" />
                 <p className="text-center font-semibold tracking-wide text-md">
                   AfterEffects
                 </p>
               </div>
-              <div className="px-2 py-2 flex items-center px-2 py-1 bg-light-blue drop-shadow rounded-lg  my-2 mx-1">
+              <div className="px-2 py-2 flex items-center bg-light-blue drop-shadow rounded-lg  my-2 mx-1">
                 <img
                   src={Substance}
                   alt="Substance"

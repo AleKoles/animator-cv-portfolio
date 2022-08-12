@@ -25,12 +25,16 @@ const Hero = () => {
               </h2>
               <div className="block md:hidden">
                 <div className="my-5 flex justify-center">
-                  <button className="mx-3 box-border bg-dark-blue text-white rounded-3xl uppercase px-8 py-3 hover:bg-white hover:text-dark-blue  hover:border-dark-blue">
-                    Resume
-                  </button>
-                  <button className="mx-3 box-border bg-dark-blue text-white rounded-3xl uppercase px-8 py-3 hover:bg-white hover:text-dark-blue  hover:border-dark-blue">
-                    projects
-                  </button>
+                  <a href="./Resume">
+                    <button className="mx-3 box-border bg-dark-blue text-white rounded-3xl uppercase px-8 py-3 hover:bg-white hover:text-dark-blue  hover:border-dark-blue">
+                      Resume
+                    </button>
+                  </a>
+                  <a href="./Projects">
+                    <button className="mx-3 box-border bg-dark-blue text-white rounded-3xl uppercase px-8 py-3 hover:bg-white hover:text-dark-blue  hover:border-dark-blue">
+                      projects
+                    </button>
+                  </a>
                 </div>
 
                 <p className="text-lg leading-7 mx-5">

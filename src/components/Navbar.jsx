@@ -8,16 +8,26 @@ const Navbar = () => {
     <div className="w-screen h-[100px]  z-10 bg-white fixed">
       <div className="flex justify-between px-6 items-center w-full h-full">
         <div className="flex items-center text-xl font-bold mr-4 sm:text-2xl tracking-wide">
-          <h1>
-            <strong>Dmitri Petrov</strong>
-            <span className="uppercase font-normal"> / CG Animator</span>
-          </h1>
+          <a href="/">
+            <h1>
+              <strong>Dmitri Petrov</strong>
+              <span className="uppercase font-normal"> / CG Animator</span>
+            </h1>
+          </a>
         </div>
         <ul className="hidden md:flex ">
-          <li>About me</li>
-          <li>Resume</li>
-          <li>Projects</li>
-          <li>Contact</li>
+          <li>
+            <a href="/">About me</a>
+          </li>
+          <li>
+            <a href="./Resume">Resume</a>
+          </li>
+          <li>
+            <a href="./Projects">Projects</a>
+          </li>
+          <li>
+            <a href="./Contacts">Contact</a>
+          </li>
         </ul>
         <div className="md:hidden" onClick={handleNav}>
           {!nav ? <MenuIcon className="w-6" /> : <XIcon className="w-6" />}
@@ -28,10 +38,18 @@ const Navbar = () => {
           !nav ? "hidden" : "absolute w-full px-8 bg-white bg-opacity-90"
         }
       >
-        <li>About me</li>
-        <li>Resume</li>
-        <li>Projects</li>
-        <li>Contact</li>
+        <li>
+          <a href="./Hero">About me</a>
+        </li>
+        <li>
+          <a href="./Resume">Resume</a>
+        </li>
+        <li>
+          <a href="./Projects">Projects</a>
+        </li>
+        <li>
+          <a href="./Contacts">Contact</a>
+        </li>
       </ul>
     </div>
   );
