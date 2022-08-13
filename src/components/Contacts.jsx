@@ -8,7 +8,7 @@ import Linkedin from "../images/linkedin-brands.svg";
 const Contacts = () => {
   return (
     <div className="w-full h-screen bg-dark-blue">
-      <div className="absolute w-full top-[120px] text-white px-2 md:px-10">
+      <div className="absolute w-full top-[132px] text-white px-2 md:px-10">
         <h1 className="mt-4 mb-8 text-5xl text-center font-bold">Contact me</h1>
         <form
           action="https://getform.io/f/d32f1b29-b440-4885-a551-98e3312590ae"
@@ -31,7 +31,7 @@ const Contacts = () => {
           </div>
 
           <textarea
-            className="mx-auto p-2 w-full rounded-md"
+            className="mx-auto p-2 w-full rounded-md text-black"
             name="message"
             rows="10"
             placeholder="Message me"

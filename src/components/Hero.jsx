@@ -103,21 +103,25 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="col-span-5 absolute top-[160px] left-[400px] xl:left-[700px] lg:left-[550px] hidden md:block h-[500px] lg:w-[400px] w-[300px]">
+        <div className="col-span-5 absolute top-[160px] left-[400px] xl:left-[700px] lg:left-[550px] hidden md:block h-[500px] lg:w-[400px] w-[320px]">
           <h1 className="md:text-5xl font-bold text-3xl">Hello</h1>
           <h2 className="text-2xl font-extralight mt-10">
             I'm Dmitri, an experienced CG animator
           </h2>
           <div className="my-10 flex justify-around">
-            <button className="box-border bg-transparent text-dark-blue border-2 border-dark-blue rounded-3xl uppercase px-8 py-3 hover:bg-dark-blue hover:text-white">
-              Resume
-            </button>
-            <button className="box-border bg-dark-blue text-white rounded-3xl uppercase px-8 py-3 hover:bg-white hover:text-dark-blue hover:border-2 hover:border-dark-blue">
-              projects
-            </button>
+            <a href="./Resume">
+              <button className="box-border bg-transparent text-dark-blue border-2 border-dark-blue rounded-3xl uppercase px-8 py-3 hover:bg-dark-blue hover:text-white">
+                Resume
+              </button>
+            </a>
+            <a href="./Projects">
+              <button className="box-border bg-dark-blue text-white rounded-3xl uppercase px-8 py-3 hover:bg-white hover:text-dark-blue hover:border-2 hover:border-dark-blue">
+                projects
+              </button>
+            </a>
           </div>
 
-          <p className="lg:leading-8 lg:text-xl text-lg leading-7">
+          <p className="lg:leading-8 text-lg leading-7">
             I am particularly interested in <strong>3D animation</strong>,{" "}
             <strong>rigging</strong>, <strong>skinning</strong>, and{" "}
             <strong>modelling</strong>. With over 3 years' experience of
