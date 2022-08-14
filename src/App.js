@@ -10,10 +10,10 @@ export default function App() {
     <>
       <Navbar />
       <Routes>
-        <Route index element={<Hero />} />
-        <Route path="/Resume" element={<Resume />} />
-        <Route path="/Projects" element={<Projects />} />
-        <Route path="/Contacts" element={<Contacts />} />
+        <Route path="/" element={<Hero />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contacts" element={<Contacts />} />
       </Routes>
     </>
   );

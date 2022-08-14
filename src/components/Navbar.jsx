@@ -20,13 +20,13 @@ const Navbar = () => {
             <a href="/">About me</a>
           </li>
           <li>
-            <a href="/Resume">Resume</a>
+            <a href="/resume">Resume</a>
           </li>
           <li>
-            <a href="/Projects">Projects</a>
+            <a href="/projects">Projects</a>
           </li>
           <li>
-            <a href="/Contacts">Contact</a>
+            <a href="/contacts">Contact</a>
           </li>
         </ul>
         <div className="md:hidden" onClick={handleNav}>
@@ -42,13 +42,13 @@ const Navbar = () => {
           <a href="/">About me</a>
         </li>
         <li>
-          <a href="/Resume">Resume</a>
+          <a href="/resume">Resume</a>
         </li>
         <li>
-          <a href="/Projects">Projects</a>
+          <a href="/projects">Projects</a>
         </li>
         <li>
-          <a href="/Contacts">Contact</a>
+          <a href="/contacts">Contact</a>
         </li>
       </ul>
     </div>
