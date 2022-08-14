@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { MenuIcon, XIcon } from "@heroicons/react/solid";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -15,18 +16,19 @@ const Navbar = () => {
             </h1>
           </a>
         </div>
+
         <ul className="hidden md:flex ">
           <li>
-            <a href="/">About me</a>
+            <Link to="/">About me</Link>
           </li>
           <li>
-            <a href="/resume">Resume</a>
+            <Link to="/resume">Resume</Link>
           </li>
           <li>
-            <a href="/projects">Projects</a>
+            <Link to="/projects">Projects</Link>
           </li>
           <li>
-            <a href="/contacts">Contact</a>
+            <Link to="/contacts">Contact</Link>
           </li>
         </ul>
         <div className="md:hidden" onClick={handleNav}>
@@ -39,16 +41,16 @@ const Navbar = () => {
         }
       >
         <li>
-          <a href="/">About me</a>
+          <Link to="/">About me</Link>
         </li>
         <li>
-          <a href="/resume">Resume</a>
+          <Link to="/resume">Resume</Link>
         </li>
         <li>
-          <a href="/projects">Projects</a>
+          <Link to="/projects">Projects</Link>
         </li>
         <li>
-          <a href="/contacts">Contact</a>
+          <Link to="/contacts">Contact</Link>
         </li>
       </ul>
     </div>

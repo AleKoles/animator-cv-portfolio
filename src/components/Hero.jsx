@@ -5,6 +5,7 @@ import Telegram from "../images/telegram-brands.svg";
 import Mail from "../images/envelope-solid.svg";
 import Art from "../images/artstation-brands.svg";
 import Linkedin from "../images/linkedin-brands.svg";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -25,16 +26,16 @@ const Hero = () => {
               </h2>
               <div className="block md:hidden">
                 <div className="my-5 flex justify-center">
-                  <a href="/Resume">
+                  <Link to="/resume">
                     <button className="mx-3 box-border bg-dark-blue text-white rounded-3xl uppercase px-8 py-3 hover:bg-white hover:text-dark-blue  hover:border-dark-blue">
                       resume
                     </button>
-                  </a>
-                  <a href="/projects">
+                  </Link>
+                  <Link to="/projects">
                     <button className="mx-3 box-border bg-dark-blue text-white rounded-3xl uppercase px-8 py-3 hover:bg-white hover:text-dark-blue  hover:border-dark-blue">
                       projects
                     </button>
-                  </a>
+                  </Link>
                 </div>
 
                 <p className="text-lg leading-7 mx-5">
@@ -109,16 +110,16 @@ const Hero = () => {
             I'm Dmitri, an experienced CG animator
           </h2>
           <div className="my-10 flex justify-around">
-            <a href="/resume">
+            <Link to="/resume">
               <button className="box-border bg-transparent text-dark-blue border-2 border-dark-blue rounded-3xl uppercase px-8 py-3 hover:bg-dark-blue hover:text-white">
                 Resume
               </button>
-            </a>
-            <a href="/projects">
+            </Link>
+            <Link to="/projects">
               <button className="box-border bg-dark-blue text-white rounded-3xl uppercase px-8 py-3 hover:bg-white hover:text-dark-blue hover:border-2 hover:border-dark-blue">
                 projects
               </button>
-            </a>
+            </Link>
           </div>
 
           <p className="lg:leading-8 text-lg leading-7">
