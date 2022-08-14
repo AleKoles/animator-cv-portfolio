@@ -9,11 +9,11 @@ import ZBrush from "../images/icon_zbrush.png";
 
 const Resume = () => {
   return (
-    <div className="w-full h-[2600px] sm:h-[3000px] md:h-[1800px]  bg-dark-blue absolute top-[100px]">
+    <div className="w-full h-[3000px] sm:h-[2600px] md:h-[2000px]  bg-dark-blue absolute top-[100px]">
       <h1 className="my-10 py-10 text-white text-5xl font-bold text-center">
         Resume
       </h1>
-      <div className="flex justify-around items-center">
+      <div className="flex justify-around items-center px-2">
         <h2 className=" text-white text-xl md:text-2xl  uppercase">
           3d animator / 3d modeler
         </h2>
