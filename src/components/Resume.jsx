@@ -18,7 +18,7 @@ const Resume = () => {
           3d animator / 3d modeler
         </h2>
         <a
-          href="https://drive.google.com/file/d/1TGxb_U7ymXX1hrJBnuQhQ3LY9i8lxXBD/view?usp=sharing"
+          href="https://drive.google.com/file/d/1sQqzVGcj_wiBz1IXdLbXsGI9rbRvVotA/view?usp=sharing"
           rel="noreferrer"
           target="_blank"
         >
