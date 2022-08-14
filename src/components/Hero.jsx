@@ -25,12 +25,12 @@ const Hero = () => {
               </h2>
               <div className="block md:hidden">
                 <div className="my-5 flex justify-center">
-                  <a href="./Resume">
+                  <a href="/Resume">
                     <button className="mx-3 box-border bg-dark-blue text-white rounded-3xl uppercase px-8 py-3 hover:bg-white hover:text-dark-blue  hover:border-dark-blue">
                       Resume
                     </button>
                   </a>
-                  <a href="./Projects">
+                  <a href="/Projects">
                     <button className="mx-3 box-border bg-dark-blue text-white rounded-3xl uppercase px-8 py-3 hover:bg-white hover:text-dark-blue  hover:border-dark-blue">
                       projects
                     </button>
@@ -109,12 +109,12 @@ const Hero = () => {
             I'm Dmitri, an experienced CG animator
           </h2>
           <div className="my-10 flex justify-around">
-            <a href="./Resume">
+            <a href="/Resume">
               <button className="box-border bg-transparent text-dark-blue border-2 border-dark-blue rounded-3xl uppercase px-8 py-3 hover:bg-dark-blue hover:text-white">
                 Resume
               </button>
             </a>
-            <a href="./Projects">
+            <a href="/Projects">
               <button className="box-border bg-dark-blue text-white rounded-3xl uppercase px-8 py-3 hover:bg-white hover:text-dark-blue hover:border-2 hover:border-dark-blue">
                 projects
               </button>

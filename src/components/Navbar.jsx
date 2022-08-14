@@ -20,13 +20,13 @@ const Navbar = () => {
             <a href="/">About me</a>
           </li>
           <li>
-            <a href="./Resume">Resume</a>
+            <a href="/Resume">Resume</a>
           </li>
           <li>
-            <a href="./Projects">Projects</a>
+            <a href="/Projects">Projects</a>
           </li>
           <li>
-            <a href="./Contacts">Contact</a>
+            <a href="/Contacts">Contact</a>
           </li>
         </ul>
         <div className="md:hidden" onClick={handleNav}>
@@ -39,16 +39,16 @@ const Navbar = () => {
         }
       >
         <li>
-          <a href="./Hero">About me</a>
+          <a href="/">About me</a>
         </li>
         <li>
-          <a href="./Resume">Resume</a>
+          <a href="/Resume">Resume</a>
         </li>
         <li>
-          <a href="./Projects">Projects</a>
+          <a href="/Projects">Projects</a>
         </li>
         <li>
-          <a href="./Contacts">Contact</a>
+          <a href="/Contacts">Contact</a>
         </li>
       </ul>
     </div>
