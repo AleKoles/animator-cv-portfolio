@@ -38,7 +38,7 @@ const Contacts = () => {
           ></textarea>
 
           <div className="flex justify-center">
-            <button className="mx-3 my-2 box-border bg-dark-blue text-white rounded-md uppercase px-8 py-3 hover:bg-white hover:text-dark-blue">
+            <button className="mx-3 my-2 box-border bg-dark-blue text-white rounded-3xl uppercase px-8 py-3 hover:bg-white hover:text-dark-blue">
               Let's collaborate
             </button>
           </div>
