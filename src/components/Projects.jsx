@@ -1,5 +1,5 @@
 import React from "react";
-import videojs from "video.js";
+// import videojs from "video.js";
 
 const Projects = () => {
   // const videoPlayer = {
