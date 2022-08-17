@@ -3,18 +3,18 @@ import Hero from "./components/Hero";
 import Resume from "./components/Resume";
 import Contacts from "./components/Contacts";
 import Projects from "./components/Projects";
-import Navbar from "./components/Navbar";
+
+import Layout from "./components/Layout";
 
 export default function App() {
   return (
-    <>
-      <Navbar />
-      <Routes>
+    <Routes>
+      <Route path="/" element={<Layout />}>
         <Route index element={<Hero />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contacts" element={<Contacts />} />
-      </Routes>
-    </>
+      </Route>
+    </Routes>
   );
 }
