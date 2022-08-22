@@ -168,6 +168,73 @@ const Resume = () => {
             </div>
           </div>
         </div>
+
+        <div className="my-10 py-2 px-4 bg-white rounded shadow-lg">
+          <div className="grid grid-rows-4">
+            <div className="row">
+              <div className="col-span-8  mb-5">
+                <h2 className="text-xl md:text-2xl font-bold">Education</h2>
+              </div>
+            </div>
+            <div className="row mt-2">
+              <div className="grid grid-cols-8">
+                <div className="col-span-3">
+                  <h2 className="text-lg md:text-xl font-bold">2018</h2>
+                </div>
+                <div className="col-span-5">
+                  <a
+                    href="https://ianimate.net/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <h3 className="text-md md:text-lg font-bold uppercase text-dark-blue hover:text-light-blue">
+                      iAnimate Animation School
+                    </h3>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="row mt-2">
+              <div className="grid grid-cols-8">
+                <div className="col-span-3">
+                  <h2 className="text-lg md:text-xl font-bold">2018</h2>
+                </div>
+                <div className="col-span-5">
+                  <a
+                    href="https://www.animsquad.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <h3 className="text-md md:text-lg font-bold uppercase text-dark-blue hover:text-light-blue">
+                      Animsquad Animation School
+                    </h3>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="row mt-2">
+              <div className="grid grid-cols-8">
+                <div className="col-span-3">
+                  <h2 className="text-lg md:text-xl font-bold">2005 - 2011</h2>
+                </div>
+                <div className="col-span-5">
+                  <a
+                    href="https://nau.edu.ua/en/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <h3 className="text-md md:text-lg font-bold uppercase text-dark-blue hover:text-light-blue">
+                      National Aviation University,{" "}
+                      <span className="capitalize">
+                        Network Information Security, MSc
+                      </span>
+                    </h3>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="mt-10 py-2 px-4 bg-white rounded shadow-lg">
           <div>
             <h2 className="text-xl md:text-2xl font-bold mb-10">Skills</h2>
@@ -237,72 +304,6 @@ const Resume = () => {
               </div>
               <div className="px-2 py-1   my-2 mx-2">
                 <h5 className="font-semibold">Italian - Elementary</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="my-10 py-2 px-4 bg-white rounded shadow-lg">
-          <div className="grid grid-rows-4">
-            <div className="row">
-              <div className="col-span-8  mb-5">
-                <h2 className="text-xl md:text-2xl font-bold">Education</h2>
-              </div>
-            </div>
-            <div className="row mt-2">
-              <div className="grid grid-cols-8">
-                <div className="col-span-3">
-                  <h2 className="text-lg md:text-xl font-bold">2018</h2>
-                </div>
-                <div className="col-span-5">
-                  <a
-                    href="https://ianimate.net/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <h3 className="text-md md:text-lg font-bold uppercase text-dark-blue hover:text-light-blue">
-                      iAnimate Animation School
-                    </h3>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="row mt-2">
-              <div className="grid grid-cols-8">
-                <div className="col-span-3">
-                  <h2 className="text-lg md:text-xl font-bold">2018</h2>
-                </div>
-                <div className="col-span-5">
-                  <a
-                    href="https://www.animsquad.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <h3 className="text-md md:text-lg font-bold uppercase text-dark-blue hover:text-light-blue">
-                      Animsquad Animation School
-                    </h3>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="row mt-2">
-              <div className="grid grid-cols-8">
-                <div className="col-span-3">
-                  <h2 className="text-lg md:text-xl font-bold">2005 - 2011</h2>
-                </div>
-                <div className="col-span-5">
-                  <a
-                    href="https://nau.edu.ua/en/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <h3 className="text-md md:text-lg font-bold uppercase text-dark-blue hover:text-light-blue">
-                      National Aviation University,{" "}
-                      <span className="capitalize">
-                        Network Information Security, MSc
-                      </span>
-                    </h3>
-                  </a>
-                </div>
               </div>
             </div>
           </div>
