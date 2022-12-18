@@ -3,7 +3,7 @@ import Skills from "./Skills";
 
 const Resume = () => {
   return (
-    <div className="w-full h-fit bg-dark-blue z-0 mt-[100px] pb-24">
+    <div className="w-full h-fit min-h-screen bg-dark-blue z-0 mt-[100px] pb-24">
       <h3 className="pb-10 pt-16 text-white text-5xl font-bold text-center">
         Resume
       </h3>

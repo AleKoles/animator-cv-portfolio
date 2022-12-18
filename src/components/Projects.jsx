@@ -2,7 +2,7 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div className="w-full h-fit bg-dark-blue">
+    <div className="w-full h-fit min-h-screen bg-dark-blue">
       <div className="w-full h-full mt-[100px] z-0 bg-dark-blue pb-24">
         <div className="flex justify-center px-2">
           <h2 className="pb-10 pt-16 text-white text-3xl sm:text-4xl md:text-5xl font-bold">
@@ -33,7 +33,7 @@ const Projects = () => {
           </a>
         </div>
         <iframe
-          className="video  my-8  sm:my-5 mx-auto rounded w-full aspect-video"
+          className="video my-8 sm:my-5 mx-auto rounded-lg lg:w-3/4 md:w-10/12 aspect-video"
           title="Youtube player"
           sandbox="allow-same-origin allow-forms allow-popups allow-scripts allow-presentation"
           src={`https://youtube.com/embed/lK79KzcCGyY?autoplay=0`}

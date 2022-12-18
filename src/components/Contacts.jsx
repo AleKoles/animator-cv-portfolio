@@ -7,7 +7,7 @@ import Linkedin from "../images/linkedin-brands.svg";
 
 const Contacts = () => {
   return (
-    <div className="w-full h-fit pb-24 bg-dark-blue">
+    <div className="w-full min-h-screen h-fit pb-24 bg-dark-blue">
       <div className="w-full mt-[100px] z-0 text-white px-2 md:px-10">
         <h2 className="pb-10 pt-16 text-5xl text-center font-bold">
           Contact me
