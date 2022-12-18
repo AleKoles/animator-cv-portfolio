@@ -7,10 +7,10 @@ const Skills = () => {
       <div className="flex flex-wrap">
         <div className="w-full">
           <ul
-            className="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row"
+            className="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row justify-between"
             role="tablist"
           >
-            <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
+            <li className="-mb-px mr-2 last:mr-0 flex-auto">
               <a
                 className={
                   "text-xl md:text-2xl font-bold mb-10" +
@@ -29,7 +29,7 @@ const Skills = () => {
                 Software skills
               </a>
             </li>
-            <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
+            <li className="-mb-px mr-2 last:mr-0 flex-auto">
               <a
                 className={
                   "text-xl md:text-2xl font-bold mb-10" +
