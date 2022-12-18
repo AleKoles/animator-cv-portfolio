@@ -6,7 +6,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => setNav(!nav);
   return (
-    <div className="w-screen h-[100px] z-20 top-0 bg-white fixed">
+    <div className="w-screen h-[100px] shadow-lg z-20 top-0 bg-white fixed">
       <div className="flex justify-between px-6 items-center w-full h-full">
         <div className="flex items-center text-xl font-bold mr-4 sm:text-2xl tracking-wide">
           <a href="/">

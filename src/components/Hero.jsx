@@ -17,9 +17,9 @@ const Hero = () => {
               <div className="border-4 border-white rounded-full overflow-hidden w-[235px] h-[235px] mt-10 mx-auto">
                 <img src={Photo} alt="portrait" />
               </div>
-              <h1 className="text-3xl font-bold tracking-wide mt-8">
+              <h2 className="text-3xl font-bold tracking-wide mt-8">
                 Dmitri Petrov
-              </h1>
+              </h2>
               <hr className="mt-4 mx-auto bg-white h-[2px] w-[80px]" />
               <h2 className="mt-4 text-2xl uppercase">
                 3D animator / 3D Modeller

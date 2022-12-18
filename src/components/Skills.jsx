@@ -16,7 +16,7 @@ const Skills = () => {
                   "text-xl md:text-2xl font-bold mb-10" +
                   (openTab === 1
                     ? "text-black border-b-4 border-dark-blue"
-                    : "text-gray-600 dark:text-gray-200")
+                    : "text-gray-600")
                 }
                 onClick={(e) => {
                   e.preventDefault();
@@ -35,7 +35,7 @@ const Skills = () => {
                   "text-xl md:text-2xl font-bold mb-10" +
                   (openTab === 2
                     ? "text-black border-b-4 border-dark-blue"
-                    : "text-gray-600 dark:text-gray-200")
+                    : "text-gray-600")
                 }
                 onClick={(e) => {
                   e.preventDefault();
