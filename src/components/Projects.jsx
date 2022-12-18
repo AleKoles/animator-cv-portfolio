@@ -2,10 +2,10 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div className="w-full h-screen bg-dark-blue">
-      <div className="absolute w-full h-full top-[120px]  bg-dark-blue">
+    <div className="w-full h-fit bg-dark-blue">
+      <div className="w-full h-full mt-[100px] z-0 bg-dark-blue pb-24">
         <div className="flex justify-center px-2">
-          <h1 className="my-10 py-10 text-white text-3xl sm:text-4xl md:text-5xl font-bold">
+          <h1 className="pb-10 pt-16 text-white text-3xl sm:text-4xl md:text-5xl font-bold">
             My Projects
           </h1>
         </div>
