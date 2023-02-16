@@ -12,7 +12,7 @@ const Resume = () => {
           3d animator / 3d modeler
         </h2>
         <a
-          href="https://drive.google.com/uc?export=download&id=1sQqzVGcj_wiBz1IXdLbXsGI9rbRvVotA"
+          href="https://drive.google.com/uc?export=download&id=1OucLZcRtLJPYQgmSayczsYpfsUTGxQQ-"
           rel="noreferrer"
           target="_blank"
         >
